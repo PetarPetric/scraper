@@ -39,7 +39,7 @@
 
 ### For the Niš eServis Site Specifically:
 
-The site you mentioned (http://www.eservis.ni.rs/materijalizasg/) appears to be a document repository for Niš city. Here's how I'd recommend setting it up:
+The site example (http://www.eservis.ni.rs/materijalizasg/) appears to be a document repository for Niš city. Here's how I'd recommend setting it up:
 
 1. Base URL: `http://www.eservis.ni.rs/materijalizasg/`
 2. Mode: Navigation Mode
@@ -54,5 +54,3 @@ If you just want to quickly scrape a site without going through the interactive 
 ```
 python flexible_pdf_scraper.py --url http://www.eservis.ni.rs/materijalizasg/
 ```
-
-This script is much more adaptable to different site structures than the previous ones. It should work well with the Arandjelovac site, the Belgrade site, and the Niš site you mentioned, as well as many others.
